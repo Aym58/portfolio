@@ -1,0 +1,12 @@
+@import './../../theme/theme.scss';
+
+.image-item {
+  display: flex;
+  width: 128px;
+  height: 128px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 481px) {
+}

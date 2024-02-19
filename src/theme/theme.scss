@@ -1,0 +1,33 @@
+$background-primary: #fafafa;
+$text-primary: #292f36;
+$border: #6e9e9b;
+
+$max-page-width: 1600px;
+
+$layout-margin: 48px;
+$header-height: 72px;
+$header-border: 4px;
+$grid-gap: 36px;
+
+$layout-margin-mobile: 0px;
+$header-height-mobile: 64px;
+$header-border-mobile: 4px;
+$grid-gap-mobile: 24px;
+
+// Exporting variables
+:export {
+  background-primary: $background-primary;
+  text-primary: $text-primary;
+  border: $border;
+
+  layout-margin: $layout-margin;
+  header-height: $header-height;
+  header-border: $header-border;
+  max-page-width: $max-page-width;
+
+  layout-margin-mobile: $layout-margin-mobile;
+  header-height-mobile: $header-height-mobile;
+  header-border-mobile: $header-border-mobile;
+
+  grid-gap: $grid-gap;
+}

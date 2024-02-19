@@ -1,0 +1,27 @@
+@import './../../theme/theme.scss';
+
+.portrait-outer-container {
+  display: flex;
+  gap: $grid-gap;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+
+  .portrait-inner-container {
+    display: flex;
+    gap: $grid-gap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: fit-content;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .portrait-container {
+    gap: 24px;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+  }
+}

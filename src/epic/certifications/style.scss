@@ -1,0 +1,18 @@
+@import './../../theme/theme.scss';
+
+.certifications-container {
+  display: flex;
+  gap: $grid-gap;
+  flex-direction: row;
+  width: fit-content;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 481px) {
+  .certifications-container {
+    gap: 24px;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

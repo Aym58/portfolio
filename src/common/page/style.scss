@@ -1,0 +1,46 @@
+@import './../../theme/theme.scss';
+
+.page-center-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.page-center-top {
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.page-center-bottom {
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.page-left-center {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.page-left-top {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.page-left-bottom {
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.page-right-center {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.page-right-top {
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.page-right-bottom {
+  align-items: flex-end;
+  justify-content: flex-end;
+}

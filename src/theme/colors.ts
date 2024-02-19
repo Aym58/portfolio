@@ -1,0 +1,10 @@
+export enum Colors {
+  BACKGROUND = '#FAFAFA',
+  TEXT = '#292F36',
+  CAMBRIDGE_BLUE = '#6BAB90',
+  VERDIGRIS = '#6E9E9B',
+  AF_BLUE = '#7191A6',
+  GLAUCOUS = '#7776BC',
+  FANDANGO = '#A95393',
+  RAZZMATAZZ = '#DB3069',
+}
